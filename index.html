@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Menu utama -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                <div class="container-fluid ">
+                  <a class="navbar-brand logo"> <img src="./assets/logo.png" alt="Bootstrap" width="60" height="60" style="border-radius: 90px;"> </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse border-merah" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active sub-nav" aria-current="page" href="#profil" >Menu Utama</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  sub-nav-2" href="#project">Project</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  sub-nav-2" href="#porto">Portofolio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  sub-nav-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Lebih banyak
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#sosmed">Sosial Media</a></li>
+                          <li><a class="dropdown-item" href="https://github.com/NandaDika">Github</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="http://discordapp.com/users/413498915107635200">Contact me</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="row"  id="profil">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 border-merah d-flex align-items-center"> 
+                <!-- isi konten -->
+                <div class="">
+                    <h1 class="judul">Halo, Saya Nanda Pratama Gema Mahardika</h1>
+                    <h3 class="sub-judul">Mahasiswa Universitas Negeri Malang</h3>
+                    <p class="d-inline-flex gap-1">
+                      <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        About Me
+                      </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                        Halo, nama saya Nanda. Saya seorang desainer grafis profesional. Saya memiliki pengalaman dalam mendesain media sosial, logo, flyer, dan mengedit video. Saya menggunakan Adobe Photoshop dan Adobe Premiere untuk melakukan pekerjaan saya. Selain itu, saya juga sedang mempelajari tentang pengembangan web dan game. Saya telah memiliki kemampuan pada bahasa C, C++, Java, dan Javascript.
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col col-lg-6 col-md-6  col-sm-12 border-merah text-center">
+                <!-- gambar samping -->
+                <img src="./assets/Foto1.png" class="img-thumbnail" style="border: none">
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Skill -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4 style="margin: 2% 0 2% 0;">Keahlian yang dimiliki</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="modal fade" id="potoshop" tabindex="-1" aria-labelledby="potoshopModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Adobe Photoshop</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Adobe Photoshop adalah editor grafis raster yang dikembangkan dan diterbitkan oleh Adobe Inc. untuk Windows dan macOS. Awalnya dibuat pada tahun 1987 oleh Thomas dan John Knoll. Sejak itu, perangkat lunak ini menjadi alat yang paling banyak digunakan untuk seni digital profesional, terutama dalam pengeditan grafis raster.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Tutup</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-xl-6 col-lg-6 col-md-11 col-sm-11">
+          <a class="text-unlink" role="button" data-bs-toggle="modal" data-bs-target="#potoshop" ><img src="./assets/photoshop.png" class="img-thumbnail" style="width: 30px;">Adobe Photoshop</a>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 80%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="modal fade" id="premiere" tabindex="-1" aria-labelledby="premiereModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Adobe Premiere Pro</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Adobe Premiere Pro adalah aplikasi perangkat lunak pengeditan video berbasis garis waktu dan non-linier yang dikembangkan oleh Adobe Inc. dan diterbitkan sebagai bagian dari program lisensi Adobe Creative Cloud. Pertama kali diluncurkan pada tahun 2003, Adobe Premiere Pro merupakan penerus Adobe Premiere.              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Tutup</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-xl-6 col-lg-6 col-md-11 col-sm-11">
+          <a role="button" data-bs-toggle="modal" data-bs-target="#premiere" class="text-unlink"><img src="./assets/premiere-pro.png" class="img-thumbnail" style="width: 30px;">Adobe Premiere Pro</a>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 78%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="modal fade" id="aftereffect" tabindex="-1" aria-labelledby="aftereffectModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Adobe After Effects</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Adobe After Effects adalah aplikasi efek visual digital, grafik gerak, dan pengomposisian yang dikembangkan oleh Adobe Inc. itu digunakan dalam proses pasca produksi pembuatan film, video game dan produksi televisi. After Effects antara lain dapat digunakan untuk keying, tracking, compositing, dan animasi.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Tutup</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-xl-6 col-lg-6 col-md-11 col-sm-11">
+          <a role="button" data-bs-toggle="modal" data-bs-target="#aftereffect" class="text-unlink"><img src="./assets/after-effects.png" class="img-thumbnail" style="width: 30px;">Adobe After Effect</a>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 70%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="modal fade" id="cplus" tabindex="-1" aria-labelledby="cplusModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">C++</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                C++ adalah bahasa pemrograman berorientasi objek yang memberikan struktur yang jelas pada program dan memungkinkan kode untuk digunakan kembali, sehingga menurunkan biaya pengembangan. C++ bersifat portabel dan dapat digunakan untuk mengembangkan aplikasi yang dapat disesuaikan dengan berbagai platform.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Tutup</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-xl-6 col-lg-6 col-md-11 col-sm-11">
+          <a role="button" data-bs-toggle="modal" data-bs-target="#cplus" class="text-unlink"><img src="./assets/c-.png" class="img-thumbnail" style="width: 30px;">C++</a>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 75%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="modal fade" id="js" tabindex="-1" aria-labelledby="jsModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">JavaScript</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                JavaScript, sering disingkat JS, adalah bahasa pemrograman yang merupakan salah satu teknologi inti World Wide Web, bersama dengan HTML dan CSS. Pada tahun 2023, 98,7% situs web menggunakan JavaScript di sisi klien untuk perilaku halaman web, sering kali menggabungkan perpustakaan pihak ketiga.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Tutup</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-xl-6 col-lg-6 col-md-11 col-sm-11">
+          <a role="button" data-bs-toggle="modal" data-bs-target="#js" class="text-unlink"><img src="./assets/js.png" class="img-thumbnail" style="width: 30px;">JavaScript <span class="badge bg-primary top-0 start-100">Baru</span></h6></a>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar" style="width: 40%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- menu project -->
+    <div class="container border-merah">
+        <div class="row text-center" style="margin-bottom: 5%;">
+            <div class="col-12">
+                <h1 id="project" >Daftar Project</h1>
+            </div>
+        </div>
+        <div class="row border-merah" style="margin-bottom: 15%;">
+            <div class="col">  
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/thumbnail.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Aplikasi Penyewaan Sepeda Motor</h5>
+                      <p class="card-text">Sebuah aplikasi penyewaan sepeda motor berbasis bahasa C++. Digunakan untuk memenuhi tugas matakuliah dasar pemrograman.</p>
+                      <a href="https://github.com/NandaDika/TUGAS-AKHIR-SEMESTER-1" class="btn btn-primary">Lihat..</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">  
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/thumbnail.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Aplikasi Pemesanan Tiket Pesawat</h5>
+                      <p class="card-text">Sebuah aplikasi pemesanan tiket pesawat berbasis bahasa Java. Digunakan untuk memenuhi tugas matakuliah Object Oriented Programing.</p>
+                      <a href="https://github.com/NandaDika/TUGAS-AKHIR-SEMESTER-2" class="btn btn-primary">Lihat..</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">  
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/thumbnail.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tsukihime Bot</h5>
+                      <p class="card-text">Sebuah bot discord yang diciptakan karena sebuah kegabutan. Berbasis pada bahasa Javasript</p>
+                      <a href="https://github.com/NandaDika/TsukiHime-bot" class="btn btn-primary">Lihat..</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hasil Desain dan Jepretan -->
+    <div class="container border-merah" style="padding: 50px 0 50px 0;" >
+      <div class="row text-center" style="margin-bottom: 5%;">
+        <div class="col-12">
+            <h1 id="porto">Portofolio Desain dan Fotografi</h1>
+        </div>
+    </div>
+      <div class="row border-merah">
+        <div class="col-6 offset-3 border-merah">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./assets/img-1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/img-2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img-3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid border-merah" style="background-color: #040404; padding-top: 1%;" id="sosmed" >
+        <div class="row">
+            <div class="col d-flex justify-content-evenly align-items-end">
+                <a href="https://www.facebook.com/m.subekti.98" class="link-style"><img class="img-thumbnail icon-hover" src="./assets/facebook.png" style="background-color: #fff0; width: 35px; border: none;"></a>
+            </div>
+            <div class="col d-flex justify-content-evenly align-items-end">
+                <a href="https://www.instagram.com/n.d1108/" class="link-style"><img class="img-thumbnail icon-hover" src="./assets/instagram.png" style="background-color: #fff0; width: 35px; border: none;"></a>
+            </div>
+            <div class="col d-flex justify-content-evenly align-items-end">
+                <a href="https://twitter.com/coub69" class="link-style"><img class="img-thumbnail icon-hover" src="./assets/twitter.png" style="background-color: #fff0; width: 35px; border: none;"></a>
+            </div>
+            <div class="col d-flex justify-content-evenly align-items-end">
+                <a href="http://discordapp.com/users/413498915107635200" class="link-style"><img class="img-thumbnail icon-hover" src="./assets/discord.png" style="background-color: #fff0; width: 35px; border: none;"></a>
+            </div>
+            <div class="col d-flex justify-content-evenly align-items-end">
+                <a class="link-style"  data-bs-toggle="offcanvas" href="#youtubeCanvas" role="button" aria-controls="youtubeCanvas"><img class="img-thumbnail icon-hover" src="./assets/youtube.png" style="background-color: #fff0; width: 35px; border: none;"></a>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 1%;">
+            <div class="col d-flex justify-content-center">
+                <p>Copyright© Nanda Pratama</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="youtubeCanvas" aria-labelledby="youtubeCanvas">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Youtube</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <iframe width="350" src="https://www.youtube.com/embed/CkyXo-IXeHA?si=Q-nN4842Yw0GYyOB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="350" src="https://www.youtube.com/embed/47tB1sqO5fk?si=sQ-3q4plotIwf8p3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="350" src="https://www.youtube.com/embed/l8d0Vv9LCvA?si=gKiVPIB_ve2SgL3l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <a class="btn btn-danger" role="button" href="https://youtube.com/@nekoking-9982?feature=shared">Subscribe</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+    })
+
+    </script>
+</body>
+
+<style>
+
+    /* .border-merah{
+    border: 1px solid red;
+    } */
+
+    .logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: #040404;
+    font-weight: 600;
+    }
+
+    .sub-nav{
+        font-size: 20px;
+        text-decoration: none;
+        color: #040404;
+        font-weight: 400;
+    }
+
+    .sub-nav-2{
+        font-size: 20px;
+        text-decoration: none;
+        color: #1d1d1d;
+        font-weight: 400;
+    }
+
+    .judul{
+    font-family: sans-serif;
+    color: rgb(255, 171, 4);
+    font-weight: 700;}
+
+    .sub-judul{
+    font-family: sans-serif;
+    color: #040404;
+    font-weight: 300;
+    }
+
+    .desc{
+    font-family: sans-serif;
+    color: #040404;
+    font-weight: 200;
+    }
+
+    .link-style{
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #dedede;
+        font-weight: 200;
+    }
+
+    .icon-hover:hover{
+    transform: scale(1.3);
+    }
+
+    .text-unlink{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #040404;
+    font-weight: 400;
+    }
+
+    .progress{
+    background-color: #a5d0fb;
+    }
+</style>
+</html>
